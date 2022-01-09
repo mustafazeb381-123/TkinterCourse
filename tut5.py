@@ -1,0 +1,16 @@
+from tkinter import *
+from PIL import Image, ImageTk
+root = Tk()
+root.geometry("550x350")
+# photo = PhotoImage(file="file.png")
+hammad = Label(text="Mehad is dangerous player of pubg")
+hammad.pack()
+# image = Image.open("photo.jpg")
+# photo = ImageTk.PhotoImage(image)
+# xuxaiii_label = Label(image=photo)
+# xuxaiii_label.pack()
+image = Image.open("photo.jpg")
+photo = ImageTk.PhotoImage(image)
+zeb_label = Label(image=photo)
+zeb_label.pack()
+root.mainloop()
